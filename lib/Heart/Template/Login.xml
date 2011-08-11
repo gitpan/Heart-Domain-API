@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<epp xmlns="[[namespace]]">
+  <command>
+    <login>
+      <clID>[[clid]]</clID>
+      <pw>[[pw]]</pw>
+      <options>
+        <version>1.0</version>
+        <lang>en</lang>
+      </options>
+      <svcs>
+        <objURI>urn:ietf:params:xml:ns:contact-1.0</objURI>
+        <objURI>urn:ietf:params:xml:ns:domain-1.0</objURI>
+        <objURI>http://www.heartinternet.co.uk/whapi/null-1.1</objURI>
+        <svcExtension>
+          <extURI>http://www.heartinternet.co.uk/whapi/ext-domain-1.2</extURI>
+          <extURI>http://www.heartinternet.co.uk/whapi/ext-contact-1.0</extURI>
+          <extURI>http://www.heartinternet.co.uk/whapi/ext-host-1.0</extURI>
+          <extURI>http://www.heartinternet.co.uk/whapi/ext-null-1.0</extURI>
+          <extURI>http://www.heartinternet.co.uk/whapi/ext-whapi-1.0</extURI>
+        </svcExtension>
+      </svcs>
+    </login>
+    <clTRID>[[cltrid]]</clTRID>
+</command>
+</epp>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<epp xmlns="[[namespace]]" xmlns:ext-domain="http://www.heartinternet.co.uk/whapi/ext-domain-1.2" xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+  <command>
+    <check>
+      <domain:check>
+        <domain:name>[[domain]]</domain:name>
+      </domain:check>
+    </check>
+    <extension>
+      <ext-domain:checkExtension>
+        [[whois_ext]]
+      </ext-domain:checkExtension>
+    </extension>
+    <clTRID>[[cltrid]]</clTRID>
+  </command>
+</epp>

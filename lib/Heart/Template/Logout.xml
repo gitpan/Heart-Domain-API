@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<epp xmlns="[[namespace]]">
+  <command>
+    <logout />
+    <clTRID>[[cltrid]]</clTRID>
+  </command>
+</epp> 
+
+

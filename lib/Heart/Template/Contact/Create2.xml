@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:ext-contact="http://www.heartinternet.co.uk/whapi/ext-contact-1.0" xmlns:contact="urn:ietf:params:xml:ns:contact-1.0">
+  <command>
+    <create>
+      <contact:create>
+        <contact:id>IGNORED</contact:id>
+        <contact:postalInfo type="loc">
+          <contact:name>John Doe</contact:name>
+          <contact:org>John Doe Ltd</contact:org>
+          <contact:addr>
+            <contact:street>1 Milky Way</contact:street>
+            <contact:street>Universe Street</contact:street>
+            <contact:city>Solarton</contact:city>
+            <contact:pc>T9 9TT</contact:pc>
+            <contact:cc>GB</contact:cc>
+          </contact:addr>
+        </contact:postalInfo>
+        <contact:voice>+44.1112222222</contact:voice>
+        <contact:email>john@doe.example.org</contact:email>
+        <contact:authInfo>
+          <contact:ext>
+            <ext-contact:null/>
+          </contact:ext>
+        </contact:authInfo>
+      </contact:create>
+    </create>
+    <extension>
+      <ext-contact:createExtension>
+        <ext-contact:person>
+          <ext-contact:salutation gender="male">Mr</ext-contact:salutation>
+          <ext-contact:surname>Doe</ext-contact:surname>
+          <ext-contact:otherNames>John</ext-contact:otherNames>
+          <ext-contact:dateOfBirth>1980-12-20</ext-contact:dateOfBirth>
+        </ext-contact:person>
+        <ext-contact:organisationType>company</ext-contact:organisationType>
+        <ext-contact:telephone type="mobile">+44.7772222222</ext-contact:telephone>
+      </ext-contact:createExtension>
+    </extension>
+    <clTRID>71a5c8e557f579017b27b49879281db3</clTRID>
+  </command>
+</epp>

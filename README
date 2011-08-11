@@ -1,0 +1,41 @@
+Heart-Domain-API
+
+Welcome to my first CPAN contribution. A lot of the code in Heart::Domain::API still needs 
+work, but it still works nonetheless.
+It's an easy-to-use interface to Heart Internet's Domain Reseller XML API.
+You won't need to bother with managing SSL sockets or parsing deep and complex XML structures.
+Just worry about getting the domain functionality in your site with minimum hassle. This is 
+exactly why I wrote Heart::Domain::API
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+!! Don't forget to copy the Template directory to the path of your script.
+!! Alternatively you can copy it anywhere and use Heart::Domain::API->{-path} to point
+to its location.
+    cp -r <path/to/perl/libs>/Heart/Template <path/of/script>/Template
+
+That's it!
+
+SUPPORT AND DOCUMENTATION
+
+Being my first release, and CPAN module, there isn't much documentation.
+I've included some in the module itself, but I am working on some better support 
+for this module. Please feel free to email brad@geeksware.net if you have any 
+queries, bugs, or ideas to make this project better.
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2011 Brad Haywood
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
